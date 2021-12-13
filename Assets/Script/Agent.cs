@@ -6,7 +6,9 @@ public class Agent : MonoBehaviour
 {
     public float maxspeed;
     public float maxaccel;
-    public float orientation;
+    public float maxRotation;
+    public float maxAngularAccel;
+    public float orientation; //방향값
     public float rotation;
     public Vector3 velocity;
     protected Steering steering;

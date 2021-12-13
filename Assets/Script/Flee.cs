@@ -21,7 +21,7 @@ public class Flee : AgnetBehavior
 public class Evade : Flee
 {
     public float maxPrediction;
-    private GameObject targetAux;
+    private GameObject targetAux; //보조적인 의미
     private Agent targetAgent;
 
     public override void Awake()
